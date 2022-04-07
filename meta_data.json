@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "customer support",
+        "1": "internationalization",
+        "2": "productivity",
+        "3": "technical",
+        "4": "small business"
+    },
+    "description": "Send text messages from your Sociocs connected channels. 💬\n\nEnable two-way conversations with your Bubble app users with the Sociocs inbox. For example, you send an order confirmation from your bubble app, which is also visible in your Sociocs inbox. When your user/customer replies to that message, it also comes to the Sociocs inbox, from where you can reply back.\n\nCurrently it works for SMS/text messaging (i.e. Twilio channel) and WhatsApp (i.e. Twilio and Gupshup channels).\n\nSociocs inbox is available as web app and mobile apps.\n\n- Web App: https://app.sociocs.com\n- Mobile Apps: https://mobileapps.page.link/sociocs\n\n(If you are looking at this description from within the \"Installed Plugins\" page of your Bubble app, click on the \"Plugin page →\" link on the top-right for instructions about where to get values for the plugin configuration.)",
+    "image": "//s3.amazonaws.com/appforest_uf/f1649178112963x446744981461271400/sociocs-icon-500-wbg-padded.png",
+    "license": "open_source",
+    "link": "https://www.sociocs.com/contact-us/",
+    "name": "Sociocs - Send Text Messages",
+    "plugin_instructions": "1. Sign-up on app.sociocs.com.\n\n2. Connect \"SMS (with Twilio)\", \"WhatsApp (with Gupshup)\", or \"WhatsApp (with Twilio)\" channel.\n\n3. Go to \"Profile & settings -> API\" to find \"API Key\" (referred to as \"api_key\" below).\n\n4. Scroll down to code sample on the same page, and find values for these in the code sample: \"provider\", \"channel_key\".\n\n5. Add \"api_key\", \"provider\", and \"channel_key\" parameters in the installed bubble plugin. Bubble also shows fields for adding dev keys (i.e. \"api_key - dev.\", \"provider - dev.\", and \"channel_key - dev.\"). You can leave them blank.\n\n6. When adding the workflow action, select \"Send Sociocs Message\" under the plugins.\n\n7. Enter the To (required), Name (optional) and Text (required) parameters to use in all the actions or set them to use dynamic values depending upon your use case.\n\nThat's it, you are all set to send messages to you users!"
+}

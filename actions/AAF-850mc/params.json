@@ -1,0 +1,34 @@
+{
+    "category": "plugins",
+    "display": "Send Sociocs Message",
+    "fields": {
+        "AAG": {
+            "caption": "To",
+            "doc": "Required. Must begin with country dial code. e.g. 19494105455",
+            "editor": "DynamicValue",
+            "name": "to",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Name",
+            "doc": "Optional.",
+            "editor": "DynamicValue",
+            "name": "name",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Text",
+            "doc": "Required. Text longer than 1600 characters will be rejected.",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}
