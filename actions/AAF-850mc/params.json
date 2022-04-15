@@ -4,7 +4,7 @@
     "fields": {
         "AAG": {
             "caption": "To",
-            "doc": "Required. Must begin with country dial code. e.g. 19494105455",
+            "doc": "Required. Mobile number. Must begin with country dial code. e.g. 19494105455",
             "editor": "DynamicValue",
             "name": "to",
             "rank": 0,
