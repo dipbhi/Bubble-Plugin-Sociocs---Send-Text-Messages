@@ -1,17 +1,17 @@
 {
     "category": "plugins",
-    "display": "Send Sociocs Message",
+    "display": "Save Sociocs Incoming",
     "fields": {
-        "AAG": {
-            "caption": "To",
+        "AAM": {
+            "caption": "from",
             "doc": "Required. Must begin with country dial code. e.g. 19494105455",
             "editor": "DynamicValue",
-            "name": "to",
+            "name": "from",
             "rank": 0,
             "value": "text"
         },
-        "AAH": {
-            "caption": "Name",
+        "AAN": {
+            "caption": "name",
             "doc": "Optional.",
             "editor": "DynamicValue",
             "name": "name",
@@ -19,9 +19,9 @@
             "rank": 1,
             "value": "text"
         },
-        "AAI": {
-            "caption": "Text",
-            "doc": "Required. Text longer than 1600 characters will be rejected.",
+        "AAO": {
+            "caption": "text",
+            "doc": "Required.",
             "editor": "DynamicValue",
             "long_text": true,
             "name": "text",
@@ -30,7 +30,7 @@
         }
     },
     "return_value": {
-        "AAQ": {
+        "AAP": {
             "caption": "status",
             "name": "status",
             "rank": 0,
