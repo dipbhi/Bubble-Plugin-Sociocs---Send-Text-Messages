@@ -30,7 +30,7 @@
             "value": "text"
         },
         "AAT": {
-            "caption": "image_url",
+            "caption": "Image URL",
             "doc": "Optional. Should be a publicly accessible URL of the image.",
             "editor": "DynamicValue",
             "name": "image_url",
@@ -39,7 +39,7 @@
             "value": "text"
         },
         "AAU": {
-            "caption": "file_url",
+            "caption": "File URL",
             "doc": "Optional. Should be a publicly accessible URL of the file.",
             "editor": "DynamicValue",
             "name": "file_url",
