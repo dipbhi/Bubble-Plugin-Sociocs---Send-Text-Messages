@@ -25,7 +25,26 @@
             "editor": "DynamicValue",
             "long_text": true,
             "name": "text",
+            "optional": true,
             "rank": 2,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "image_url",
+            "doc": "Optional. Should be a publicly accessible URL of the image.",
+            "editor": "DynamicValue",
+            "name": "image_url",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "file_url",
+            "doc": "Optional. Should be a publicly accessible URL of the file.",
+            "editor": "DynamicValue",
+            "name": "file_url",
+            "optional": true,
+            "rank": 4,
             "value": "text"
         }
     },
