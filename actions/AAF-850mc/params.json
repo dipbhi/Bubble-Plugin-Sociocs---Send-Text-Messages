@@ -44,6 +44,16 @@
             "editor": "DynamicValue",
             "name": "file_url",
             "optional": true,
+            "rank": 5,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "Image URLs",
+            "doc": "Optional. Use this field to send multiple images. Should be a list of publicly accessible URLs of the images.",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "image_urls",
+            "optional": true,
             "rank": 4,
             "value": "text"
         }
